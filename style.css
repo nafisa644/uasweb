@@ -1,0 +1,103 @@
+body {
+    background: #1e1e2f; /* Warna latar belakang yang lebih gelap */
+    color: #cfd9e2; /* Warna teks yang lebih terang untuk kontras */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+#wrapper {
+    background: #11132e; /* Warna latar belakang konten yang lebih gelap */
+    width: 1100px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Bayangan yang lebih gelap */
+}
+
+#wrapper header {
+    background: #7f8097; /* Warna header yang lebih gelap */
+    padding: 10px;
+    position: relative; /* Menambahkan posisi relatif untuk penempatan absolut logo */
+}
+
+#wrapper header hgroup {
+    float: left;
+    color: #ffffff; /* Warna teks putih untuk kontras */
+    padding-right: 50px; /* Beri ruang di kanan judul untuk logo */
+    position: relative; /* Menambahkan posisi relatif untuk mengontrol z-index */
+    z-index: 2; /* Menetapkan z-index yang lebih tinggi dari logo */
+}
+
+.school-logo {
+    position: absolute;
+    top: 20px; /* Jarak dari atas */
+    left: 20px; /* Pindahkan ke kiri */
+    height: 50px; /* Atur tinggi logo sesuai kebutuhan */
+    z-index: 1; /* Menetapkan z-index yang lebih rendah dari elemen judul */
+}
+
+#wrapper header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+#wrapper header nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+#wrapper header nav ul li a {
+    padding: 15px;
+    color: #cfd9e2; /* Warna teks yang lebih terang */
+    text-decoration: none;
+}
+
+#wrapper header nav ul li a:hover {
+    background: #495057; /* Warna latar belakang saat hover */
+    border-radius: 4px;
+}
+
+#wrapper header h1,
+#wrapper header h2 {
+    padding-left: 70px; /* Tambahkan padding kiri untuk menggeser teks h1 dan h3 */
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    background: #7f8097; /* Warna footer yang sama dengan header */
+    padding: 40px 20px; /* Padding yang cukup besar */
+    font-size: 15px; /* Ukuran font */
+    text-align: center; /* Teks di tengah */
+    border-top: 3px solid #495057; /* Garis batas atas dengan warna yang lebih lembut */
+}
+
+footer a {
+    color: #cfd9e2; /* Warna teks yang lebih terang */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #a1a7b3; /* Warna teks saat hover */
+}
+
+section {
+    padding: 20px;
+    background: #28293d; /* Warna latar belakang section */
+    border-radius: 8px; /* Membulatkan sudut section */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* Warna judul yang lebih terang */
+    font-family: 'Roboto Slab', serif; /* Menggunakan font serif untuk judul */
+}
+
+p {
+    line-height: 1.6; /* Menambahkan jarak antar baris untuk keterbacaan */
+    margin-bottom: 20px; /* Menambahkan jarak bawah untuk setiap paragraf */
+}
